@@ -4,9 +4,6 @@ targetCustomizations:
   helm:
     values:
       replication: false
-  clusterSelector:
-    matchLabels:
-      env: dev
 
 - name: test
   helm:
